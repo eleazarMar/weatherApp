@@ -19,3 +19,7 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+// API -- Application Programming Interface - Its software that allows two applications to talk to each other.
+
+// Spaghetti Code --

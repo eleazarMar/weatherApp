@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E719FE352638843600A1EE0B /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E719FE342638843600A1EE0B /* API.swift */; };
+		E719FE382638851100A1EE0B /* API+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E719FE372638851100A1EE0B /* API+Extension.swift */; };
+		E719FE3E26388C3000A1EE0B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E719FE3D26388C3000A1EE0B /* NetworkManager.swift */; };
 		E7FA4D8F2637301C00A29CA2 /* WeatherForecastPMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FA4D8E2637301C00A29CA2 /* WeatherForecastPMApp.swift */; };
 		E7FA4D912637301C00A29CA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FA4D902637301C00A29CA2 /* ContentView.swift */; };
 		E7FA4D932637301D00A29CA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7FA4D922637301D00A29CA2 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E719FE342638843600A1EE0B /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		E719FE372638851100A1EE0B /* API+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Extension.swift"; sourceTree = "<group>"; };
+		E719FE3D26388C3000A1EE0B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		E7FA4D8B2637301C00A29CA2 /* WeatherForecastPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherForecastPM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7FA4D8E2637301C00A29CA2 /* WeatherForecastPMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastPMApp.swift; sourceTree = "<group>"; };
 		E7FA4D902637301C00A29CA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +58,11 @@
 		E7FA4D8D2637301C00A29CA2 /* WeatherForecastPM */ = {
 			isa = PBXGroup;
 			children = (
+				E7FA4DA22637329600A29CA2 /* LottieAnimations */,
+				E7FA4DA12637328E00A29CA2 /* ViewModels */,
+				E7FA4DA02637328400A29CA2 /* Views */,
+				E7FA4D9F2637327B00A29CA2 /* Models */,
+				E7FA4D9E2637327100A29CA2 /* Networking */,
 				E7FA4D8E2637301C00A29CA2 /* WeatherForecastPMApp.swift */,
 				E7FA4D902637301C00A29CA2 /* ContentView.swift */,
 				E7FA4D922637301D00A29CA2 /* Assets.xcassets */,
@@ -67,6 +78,44 @@
 				E7FA4D952637301D00A29CA2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E7FA4D9E2637327100A29CA2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E719FE342638843600A1EE0B /* API.swift */,
+				E719FE372638851100A1EE0B /* API+Extension.swift */,
+				E719FE3D26388C3000A1EE0B /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E7FA4D9F2637327B00A29CA2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E7FA4DA02637328400A29CA2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E7FA4DA12637328E00A29CA2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E7FA4DA22637329600A29CA2 /* LottieAnimations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LottieAnimations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +187,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E719FE382638851100A1EE0B /* API+Extension.swift in Sources */,
 				E7FA4D912637301C00A29CA2 /* ContentView.swift in Sources */,
+				E719FE3E26388C3000A1EE0B /* NetworkManager.swift in Sources */,
+				E719FE352638843600A1EE0B /* API.swift in Sources */,
 				E7FA4D8F2637301C00A29CA2 /* WeatherForecastPMApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
