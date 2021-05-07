@@ -8,9 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var cityVM = CityViewViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack(alignment: .bottom) {
+        VStack(spacing: 0) {
+          MenuHeaderView(cityVM: cityVM)
+            ScrollView(showsIndicators: false) {
+             CityView(cityVM: cityVM)
+            }
+        }.padding(.top, 40)
+    }.background(LinearGradient(gradient: Gradient(colors: [Color("ColorOne"), Color("ColorTwo"),Color("ColorThree"),Color("ColorFour"),Color("ColorFive"),]), startPoint: .topLeading, endPoint: .bottomTrailing))
+        .edgesIgnoringSafeArea(.all)
+    
     }
 }
 
