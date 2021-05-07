@@ -57,8 +57,8 @@ struct TodayWeatherView: View  {
     }
 }
 
-struct TodayWeatherView_Preview: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+//struct TodayWeatherView_Preview: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}

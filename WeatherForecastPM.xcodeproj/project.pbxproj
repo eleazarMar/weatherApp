@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7069A932645B27400A5399F /* HourlyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7069A922645B27400A5399F /* HourlyWeatherView.swift */; };
+		E7069A962645BDA900A5399F /*  DailyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7069A952645BDA900A5399F /*  DailyWeatherView.swift */; };
 		E719FE352638843600A1EE0B /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E719FE342638843600A1EE0B /* API.swift */; };
 		E719FE382638851100A1EE0B /* API+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E719FE372638851100A1EE0B /* API+Extension.swift */; };
 		E719FE3E26388C3000A1EE0B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E719FE3D26388C3000A1EE0B /* NetworkManager.swift */; };
@@ -45,6 +47,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E7069A922645B27400A5399F /* HourlyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyWeatherView.swift; sourceTree = "<group>"; };
+		E7069A952645BDA900A5399F /*  DailyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " DailyWeatherView.swift"; sourceTree = "<group>"; };
 		E719FE342638843600A1EE0B /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		E719FE372638851100A1EE0B /* API+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Extension.swift"; sourceTree = "<group>"; };
 		E719FE3D26388C3000A1EE0B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -166,6 +170,8 @@
 				E7F5B44226446BA500467BD4 /* CityView.swift */,
 				E7F5B44526446E2100467BD4 /* CityNameView.swift */,
 				E7F5B4482644702B00467BD4 /* TodayWeatherView.swift */,
+				E7069A922645B27400A5399F /* HourlyWeatherView.swift */,
+				E7069A952645BDA900A5399F /*  DailyWeatherView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -292,6 +298,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7069A962645BDA900A5399F /*  DailyWeatherView.swift in Sources */,
+				E7069A932645B27400A5399F /* HourlyWeatherView.swift in Sources */,
 				E719FE382638851100A1EE0B /* API+Extension.swift in Sources */,
 				E71BFA6B26406DD700C1B07B /* CityViewViewModel.swift in Sources */,
 				E7F5B44626446E2100467BD4 /* CityNameView.swift in Sources */,

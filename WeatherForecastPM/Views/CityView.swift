@@ -17,14 +17,14 @@ struct CityView: View {
                 .shadow(radius: 0)
             TodayWeatherView(cityVM: cityVM)
                 .padding()
-//            HourlyWeatherView(cityVM: cityVM)
-//            DailyWeatherView(cityVM: cityVM)
+            HourlyWeatherView(cityVM: cityVM)
+            DailyWeatherView(cityVM: cityVM)
         }.padding(.bottom, 30)
     }
 }
 
-struct CityView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+//struct CityView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}

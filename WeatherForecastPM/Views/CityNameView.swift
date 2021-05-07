@@ -24,8 +24,8 @@ struct CityNameView: View {
     }
 }
 
-struct CityNameView_previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+//struct CityNameView_previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}
