@@ -41,7 +41,7 @@ final class CityViewViewModel: ObservableObject {
     }
     
     var date: String {
-        return dateFormatter.string(from: Date(timeIntervalSince1970: TimeInterval(weather.current.dt)))
+        return dayFormatter.string(from: Date(timeIntervalSince1970: TimeInterval(weather.current.dt)))
     }
     
     var weatherIcon: String {
@@ -84,7 +84,7 @@ final class CityViewViewModel: ObservableObject {
         return String(format: "%0.1f", temp)
     }
     func getDayFor(timestamp: Int) -> String {
-        return dateFormatter.string(from: Date(timeIntervalSince1970: TimeInterval(timestamp)))
+        return dayFormatter.string(from: Date(timeIntervalSince1970: TimeInterval(timestamp)))
     }
     private func getLocation() {
         CLGeocoder().geocodeAddressString(city) { (placemarks, error) in
